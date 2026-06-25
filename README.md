@@ -82,4 +82,3 @@ Contiene la lógica del juego:
 Erick Obando  
 Carrera: Ingeniería de Software  
 Materia: Lógica de Programación
-``
