@@ -16,6 +16,17 @@ Aplicar los conceptos fundamentales de lógica de programación mediante:
 
 ---
 
+## Funcionalidades ✅
+
+- Generación automática del número candidato  
+- Interacción mediante botones (mayor, menor, correcto)  
+- Conteo de intentos en tiempo real  
+- Registro del historial de intentos mediante una lista  
+- Función para reiniciar el juego  
+- Interfaz gráfica con Tkinter  
+
+---
+
 ## Funcionamiento del sistema
 
 1. El usuario piensa un número entre 1 y 100.
@@ -37,7 +48,7 @@ El proyecto está organizado bajo el patrón Modelo-Vista-Controlador:
 Gestiona los datos del sistema:
 - Rango mínimo y máximo
 - Número de intentos
-- Cálculo del número candidato
+- Historial de intentos
 
 ### Vista (View)
 Interfaz gráfica desarrollada con Tkinter:
@@ -60,33 +71,9 @@ Contiene la lógica del juego:
 
 ---
 
-## Estructuras de control utilizadas
+## Fecha 📅
 
-- Condicionales (`if`, `elif`, `else`) para decisiones del sistema
-- Ciclo implícito mediante `mainloop()` de Tkinter para interacción continua
-
----
-
-## Análisis del desarrollo
-
-Durante la implementación del proyecto se pudo aplicar el patrón MVC para organizar correctamente la lógica del sistema. Además, se evidenció que el uso de un algoritmo de búsqueda binaria permite optimizar la solución, reduciendo significativamente el número de intentos.
-
-También se observó que el uso de interfaces gráficas mejora la experiencia del usuario en comparación con programas en consola.
-
----
-
-## Limitaciones
-
-El sistema depende de que el usuario proporcione respuestas correctas. Si el usuario responde de manera incorrecta o inconsistente, el algoritmo puede fallar o no encontrar el número.
-
----
-
-## Posibles mejoras
-
-- Implementar un botón de reinicio del juego
-- Mostrar el número de intentos en pantalla
-- Mejorar el diseño de la interfaz gráfica
-- Validar errores del usuario
+25 Junio 2026
 
 ---
 
@@ -95,3 +82,4 @@ El sistema depende de que el usuario proporcione respuestas correctas. Si el usu
 Erick Obando  
 Carrera: Ingeniería de Software  
 Materia: Lógica de Programación
+``
