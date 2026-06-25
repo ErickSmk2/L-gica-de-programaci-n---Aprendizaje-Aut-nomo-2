@@ -16,7 +16,7 @@ Aplicar los conceptos fundamentales de lógica de programación mediante:
 
 ---
 
-## Funcionalidades ✅
+## Funcionalidades
 
 - Generación automática del número candidato  
 - Interacción mediante botones (mayor, menor, correcto)  
@@ -71,7 +71,7 @@ Contiene la lógica del juego:
 
 ---
 
-## Fecha 📅
+## Fecha
 
 25 Junio 2026
 
